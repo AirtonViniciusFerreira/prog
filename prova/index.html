@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Avalição Pratica</title>
+    <link rel="stylesheet" href="./css/indexcss.css">
+
+  </head>
+  <body id="body">
+    <div class="link">
+      <a href="listar.php">Lista de contatos</a>
+    </div>
+    <section class="panel main-panel">
+      <?php>
+        <div class="form-panel">
+          <form class="" action="cadrastro.php" method="post">
+            <div class="">
+              <input type="text" name="Nome" placeholder="Nome" required class="input-control" >
+            </div>
+            <div class="">
+              <input type="text" placeholder="Apelido" name="Apelido" class="input-control" >
+            </div>
+            <div class="">
+              <input type="email" name="Email" placeholder="Email" required class="input-control" >
+            </div>
+            <div class="">
+              <input type="number" name="telefone" placeholder="Telefone" required  class="input-control" >
+            </div>
+            <div class="">
+              <input type="submit" value="Cadrastar Contato" required >
+            </div>
+          </form>
+        </div>
+      <?>
+    </section>
+  </body>
+</html>
