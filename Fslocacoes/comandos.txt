@@ -1,0 +1,8 @@
+composer create-project --prefer-dist laravel/laravel Fslocacoes
+php artisan make:model Produto -m
+php artisan make:model Cupo,Desconto -m
+php artisan migrate
+php artisan make:controller HomeController
+php artisan make:controller Admin/ProdutoController
+php artisan make:controller Admin/CupomDescontoContoller
+php artisan make:auth
